@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("background.jpg");
+    background-color: #000; /* Set the background color to black */
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px;
+    border-bottom: 1px solid #fff; /* Set the line color to white */
+    background-color: #000; /* Set the background color to black */    
+}
+
+.logo {
+    height: 40px;
+    width: auto;
+}
+
+.twitter-image {
+    height: 30px;
+    width: auto;
+    order: 1;
+}
+
+.opensea-image {
+    height: 30px;
+    width: auto; 
+}
+
+.logo-right {
+    order: 2;
+}
